@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo App With Server</title>
+</head>
+<body>
+  <!-- <button onclick="getTodos()">Refresh</button> -->
+ <div style="display: flex; flex-direction:column; justify-content: center; align-items:center">
+  <h1>Todo App With Own Node Js Server</h1>
+  <form onsubmit="addItem(); return false">
+    <input type="text" name="" id="todoItem">
+    <input type="submit" value="Add Item">
+  </form>
+
+  <h3 id="result">
+   
+  </h3>
+</div>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
